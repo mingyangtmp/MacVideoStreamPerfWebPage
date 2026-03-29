@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'nav.screenshots': 'Screenshots',
       'nav.video': 'Video',
       'nav.report': 'Report',
+      'nav.privacy': 'Privacy',
       'nav.download': 'Download',
       'hero.subtitle': 'macOS Video Stream Performance Testing & Analysis',
       'hero.desc': 'Monitor frame rate, latency, jitter, and key metrics in real time.<br>Evaluate video stream quality and generate professional test reports with one click.',
@@ -41,13 +42,13 @@ document.addEventListener('DOMContentLoaded', () => {
       'download.title': 'Get Started with MVS Perf',
       'download.desc': 'Download for free on the Mac App Store and start testing video stream performance today.',
       'download.appstore': 'Coming in 2 weeks',
-      'footer.privacy': 'Privacy Policy',
     },
     zh: {
       'nav.features': '功能',
       'nav.screenshots': '截图',
       'nav.video': '视频',
       'nav.report': '报告',
+      'nav.privacy': '隐私',
       'nav.download': '下载',
       'hero.subtitle': 'macOS 视频流性能测试与分析工具',
       'hero.desc': '实时监测帧率、延迟、抖动等关键指标，<br>全面评估视频流质量，一键生成专业测试报告。',
@@ -77,7 +78,6 @@ document.addEventListener('DOMContentLoaded', () => {
       'download.title': '开始使用 MVS Perf',
       'download.desc': '在 Mac App Store 免费下载，立即体验专业的视频流性能测试。',
       'download.appstore': '两周后上线',
-      'footer.privacy': '隐私政策',
     },
   };
 

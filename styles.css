@@ -193,6 +193,19 @@ img {
   background: #0066d6 !important;
 }
 
+.nav-privacy {
+  background: rgba(0, 0, 0, 0.04) !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  border-radius: 20px !important;
+  padding: 8px 18px !important;
+  color: #424245 !important;
+}
+
+.nav-privacy:hover {
+  background: rgba(0, 0, 0, 0.08) !important;
+  color: #1d1d1f !important;
+}
+
 /* Nav right area */
 .nav-right {
   display: flex;
@@ -507,19 +520,7 @@ img {
 }
 
 .footer-line {
-  margin-bottom: 16px;
-}
-
-.footer-actions {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer-privacy-btn {
-  font-size: 0.9375rem;
-  padding: 12px 28px;
-  border-radius: 12px;
+  margin-bottom: 0;
 }
 
 /* ---------- Lightbox ---------- */
