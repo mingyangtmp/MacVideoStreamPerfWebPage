@@ -506,6 +506,19 @@ img {
   border-top: 1px solid #e8e8ed;
 }
 
+.footer-line {
+  margin-bottom: 8px;
+}
+
+.footer-legal a {
+  color: #007aff;
+  font-weight: 500;
+}
+
+.footer-legal a:hover {
+  color: #0066d6;
+}
+
 /* ---------- Lightbox ---------- */
 .lightbox {
   display: none;
@@ -724,4 +737,124 @@ img {
     padding: 14px 32px;
     font-size: 1rem;
   }
+}
+
+/* ---------- Privacy policy page ---------- */
+body.privacy-page {
+  padding-top: 64px;
+}
+
+.privacy-topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.privacy-topbar-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.privacy-topbar a {
+  color: #007aff;
+  font-weight: 600;
+  font-size: 0.9375rem;
+}
+
+.privacy-topbar a:hover {
+  color: #0066d6;
+}
+
+.privacy-topbar .privacy-brand {
+  color: #1d1d1f;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.privacy-topbar .privacy-brand:hover {
+  color: #007aff;
+}
+
+.privacy-main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 48px 24px 100px;
+}
+
+.privacy-article {
+  margin-bottom: 64px;
+}
+
+.privacy-article:last-of-type {
+  margin-bottom: 0;
+}
+
+.privacy-article h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+  color: #1d1d1f;
+}
+
+.privacy-article .privacy-updated {
+  font-size: 0.9375rem;
+  color: #6e6e73;
+  margin-bottom: 28px;
+}
+
+.privacy-article h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 28px 0 10px;
+  color: #1d1d1f;
+}
+
+.privacy-article p,
+.privacy-article li {
+  font-size: 1rem;
+  color: #3a3a3c;
+  line-height: 1.65;
+}
+
+.privacy-article p {
+  margin-bottom: 14px;
+}
+
+.privacy-article ul {
+  margin: 0 0 14px 1.25rem;
+}
+
+.privacy-article li {
+  margin-bottom: 8px;
+}
+
+.privacy-divider {
+  border: none;
+  border-top: 1px solid #e8e8ed;
+  margin: 56px 0;
+}
+
+.privacy-lang-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #86868b;
+  margin-bottom: 12px;
 }

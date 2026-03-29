@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'download.title': 'Get Started with MVS Perf',
       'download.desc': 'Download for free on the Mac App Store and start testing video stream performance today.',
       'download.appstore': 'Coming in 2 weeks',
+      'footer.privacy': 'Privacy Policy',
     },
     zh: {
       'nav.features': '功能',
@@ -76,6 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'download.title': '开始使用 MVS Perf',
       'download.desc': '在 Mac App Store 免费下载，立即体验专业的视频流性能测试。',
       'download.appstore': '两周后上线',
+      'footer.privacy': '隐私政策',
     },
   };
 
