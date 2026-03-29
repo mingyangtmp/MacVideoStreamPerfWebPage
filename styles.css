@@ -507,16 +507,19 @@ img {
 }
 
 .footer-line {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
-.footer-legal a {
-  color: #007aff;
-  font-weight: 500;
+.footer-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.footer-legal a:hover {
-  color: #0066d6;
+.footer-privacy-btn {
+  font-size: 0.9375rem;
+  padding: 12px 28px;
+  border-radius: 12px;
 }
 
 /* ---------- Lightbox ---------- */
