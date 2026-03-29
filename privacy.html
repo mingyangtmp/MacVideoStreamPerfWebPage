@@ -9,19 +9,44 @@
 </head>
 <body class="privacy-page">
 
-  <header class="privacy-topbar">
-    <div class="privacy-topbar-inner">
-      <a href="index.html" class="privacy-brand"><span>&#9654;</span> MVS Perf</a>
-      <a href="#privacy-zh">中文版本</a>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">
+        <span class="brand-icon">&#9654;</span> MVS Perf
+      </a>
+      <div class="nav-right">
+        <button class="nav-toggle" id="navToggle" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><span class="nav-current" aria-current="page">Privacy</span></li>
+        <li><a href="#privacy-zh">中文版本</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="privacy-hero" id="top">
+    <div class="hero-bg privacy-hero-gradient" aria-hidden="true"></div>
+    <div class="privacy-hero-inner container">
+      <h1 class="privacy-hero-title">Privacy Policy</h1>
+      <p class="privacy-hero-subtitle">How MVS Perf handles your information on macOS</p>
+      <p class="privacy-hero-updated">Last updated: March 29, 2026</p>
+      <a href="#privacy-en" class="privacy-hero-cta">View full policy</a>
     </div>
   </header>
 
-  <main class="privacy-main">
+  <div class="privacy-body">
+    <div class="container privacy-stack">
 
-    <span class="privacy-lang-label" lang="en">English</span>
-    <article id="privacy-en" class="privacy-article" lang="en">
-      <h1>Privacy Policy</h1>
-      <p class="privacy-updated">Last updated: March 29, 2026</p>
+      <article id="privacy-en" class="privacy-card" lang="en" aria-labelledby="privacy-en-label">
+        <div class="privacy-card-head">
+          <span id="privacy-en-label" class="privacy-badge">English</span>
+        </div>
+        <div class="privacy-card-body">
 
       <p>This Privacy Policy describes how <strong>MVS Perf</strong> (“the App”), a macOS application for video stream performance testing and analysis, handles information. It is intended to meet common expectations for the <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple App Store</a> and applicable privacy guidelines.</p>
 
@@ -57,13 +82,15 @@
 
       <h2>10. Contact</h2>
       <p>For privacy questions about MVS Perf, email us at <a href="mailto:fan1056218492@gmail.com">fan1056218492@gmail.com</a>. You may also use the support options shown on our <strong>Mac App Store</strong> product page.</p>
-    </article>
+        </div>
+      </article>
 
-    <hr class="privacy-divider" aria-hidden="true">
-
-    <span class="privacy-lang-label" lang="zh">中文</span>
-    <article id="privacy-zh" class="privacy-article" lang="zh-CN">
-      <h1>隐私政策</h1>
+      <article id="privacy-zh" class="privacy-card privacy-card-zh" lang="zh-CN" aria-labelledby="privacy-zh-label">
+        <div class="privacy-card-head">
+          <span id="privacy-zh-label" class="privacy-badge privacy-badge-zh">中文</span>
+        </div>
+        <div class="privacy-card-body">
+      <h2 class="privacy-zh-title">隐私政策</h2>
       <p class="privacy-updated">最近更新：2026 年 3 月 29 日</p>
 
       <p>本隐私政策说明 <strong>MVS Perf</strong>（“本应用”）这款用于 macOS 视频流性能测试与分析的桌面应用如何处理信息，并力求符合 <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple App Store</a> 及常见隐私合规要求。</p>
@@ -100,8 +127,19 @@
 
       <h2>10. 联系方式</h2>
       <p>若您对 MVS Perf 的隐私有疑问，请发送邮件至 <a href="mailto:fan1056218492@gmail.com">fan1056218492@gmail.com</a>。您也可通过 <strong>Mac App Store</strong> 产品页上的支持方式联系我们。</p>
-    </article>
-  </main>
+        </div>
+      </article>
 
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-line">&copy; 2026 MVS Perf. All rights reserved.</p>
+      <p class="footer-legal"><a href="index.html">Home</a> · <a href="privacy.html">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script src="privacy.js"></script>
 </body>
 </html>
