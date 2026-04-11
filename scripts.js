@@ -1,5 +1,5 @@
 /* ========================================
-   MVS Perf - 交互脚本 + 国际化 (i18n)
+   VideoStreamPerf - 交互脚本 + 国际化 (i18n)
    ======================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -35,11 +35,11 @@ document.addEventListener('DOMContentLoaded', () => {
       'screenshots.label4': 'FPS Detailed Analysis',
       'screenshots.label5': 'Frame Interval Distribution',
       'video.title': 'Video Demo',
-      'video.desc': 'Watch MVS Perf in action',
+      'video.desc': 'Watch VideoStreamPerf in action',
       'report.title': 'Sample Report',
       'report.desc': 'Professional PDF test reports with complete data and analysis results',
       'report.download': 'Download Sample Report',
-      'download.title': 'Get Started with MVS Perf',
+      'download.title': 'Get Started with VideoStreamPerf',
       'download.desc': 'Download for free on the Mac App Store and start testing video stream performance today.',
       'download.appstore': 'Download on the App Store',
     },
@@ -71,11 +71,11 @@ document.addEventListener('DOMContentLoaded', () => {
       'screenshots.label4': 'FPS 详细分析',
       'screenshots.label5': '帧间隔分布',
       'video.title': '视频演示',
-      'video.desc': '观看 MVS Perf 的实际操作演示',
+      'video.desc': '观看 VideoStreamPerf 的实际操作演示',
       'report.title': '测试报告示例',
       'report.desc': '专业的 PDF 测试报告，完整记录测试数据与分析结果',
       'report.download': '下载报告示例',
-      'download.title': '开始使用 MVS Perf',
+      'download.title': '开始使用 VideoStreamPerf',
       'download.desc': '在 Mac App Store 免费下载，立即体验专业的视频流性能测试。',
       'download.appstore': 'App Store 免费下载',
     },
@@ -95,13 +95,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Update page title & meta description
     if (lang === 'zh') {
-      document.title = 'MVS Perf - macOS 视频流性能测试工具';
+      document.title = 'VideoStreamPerf - macOS 视频流性能测试工具';
       document.querySelector('meta[name="description"]').setAttribute('content',
-        'MVS Perf 是一款专业的 macOS 视频流性能测试与分析工具，实时监测 FPS、延迟、抖动等关键指标，助您全面评估视频流质量。');
+        'VideoStreamPerf 是一款专业的 macOS 视频流性能测试与分析工具，实时监测 FPS、延迟、抖动等关键指标，助您全面评估视频流质量。');
     } else {
-      document.title = 'MVS Perf - macOS Video Stream Performance Tool';
+      document.title = 'VideoStreamPerf - macOS Video Stream Performance Tool';
       document.querySelector('meta[name="description"]').setAttribute('content',
-        'MVS Perf is a professional macOS video stream performance testing and analysis tool. Monitor FPS, latency, jitter, and more in real time.');
+        'VideoStreamPerf is a professional macOS video stream performance testing and analysis tool. Monitor FPS, latency, jitter, and more in real time.');
     }
 
     // Update toggle button label: show the OTHER language name

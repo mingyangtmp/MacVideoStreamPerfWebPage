@@ -1,8 +1,8 @@
-# QWEN.md - MacVideoStreamPerfWebPage
+# QWEN.md - VideoStreamPerf Web Page
 
 ## 项目概述
 
-这是一个 **MVS Perf** 产品的官方宣传网页，MVS Perf 是一款专为 macOS 开发的视频流性能测试与分析工具。该网站采用纯静态 HTML/CSS/JavaScript 构建，通过 GitHub Pages 自动部署。
+这是一个 **VideoStreamPerf** 产品的官方宣传网页，VideoStreamPerf 是一款专为 macOS 开发的视频流性能测试与分析工具。该网站采用纯静态 HTML/CSS/JavaScript 构建，通过 GitHub Pages 自动部署。
 
 ### 主要功能
 - 产品展示页面（Hero、功能特性、截图、视频演示、报告示例、下载引导）
@@ -18,7 +18,7 @@
 ## 目录结构
 
 ```
-MacVideoStreamPerfWebPage/
+VideoStreamPerfWebPage/
 ├── index.html              # 主页（产品落地页）
 ├── privacy.html            # 隐私政策页面（中英文）
 ├── styles.css              # 全局样式
